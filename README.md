@@ -1,21 +1,16 @@
-Here. Clean, valid, no formatting bugs. Copy everything below and paste directly into `README.md`.
-
----
-
-```markdown
-# 🐱🐶 Cats vs Dogs Classification (PyTorch CNN)
+#Cats vs Dogs Classification (PyTorch CNN)
 
 A deep learning project that classifies images of cats and dogs using a custom Convolutional Neural Network (CNN) built with PyTorch.
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This project implements a **binary image classifier** trained on the Cats vs Dogs dataset. The model learns visual patterns such as edges, textures, and shapes to distinguish between the two classes.
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 Custom CNN with 3 convolutional blocks:
 
@@ -29,7 +24,7 @@ Fully connected layers:
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - Python  
 - PyTorch  
@@ -39,7 +34,7 @@ Fully connected layers:
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - Source: Kaggle Cats vs Dogs dataset  
 - Automatically downloaded using Kaggle API  
@@ -55,7 +50,7 @@ cats_vs_dogs/
 
 ---
 
-## 🔄 Data Preprocessing
+## Data Preprocessing
 
 ### Training:
 - Resize to **128×128**  
@@ -70,7 +65,7 @@ cats_vs_dogs/
 
 ---
 
-## 🏋️ Training Details
+## Training Details
 
 - Loss Function: `BCEWithLogitsLoss`  
 - Optimizer: `Adam`  
@@ -79,7 +74,7 @@ cats_vs_dogs/
 
 ---
 
-## 📊 Results
+## Results
 
 - **Validation Accuracy:** ~68.57%  
 
@@ -88,7 +83,7 @@ This accuracy is low for this problem. A basic CNN is not enough to perform well
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ### 1. Install dependencies
 ```bash
@@ -129,7 +124,7 @@ chmod 600 ~/.kaggle/kaggle.json
 
 ---
 
-## ❌ Limitations
+## Limitations
 
 * No model saving (`.pth`)
 * No inference script
@@ -139,7 +134,7 @@ chmod 600 ~/.kaggle/kaggle.json
 
 ---
 
-## 🔥 Improvements
+## Improvements
 
 To make this project strong:
 
@@ -161,7 +156,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 ---
 
-## ⚠️ Security Warning
+## Security Warning
 
 Do NOT expose your Kaggle API key in code.
 
@@ -175,14 +170,9 @@ Do NOT expose your Kaggle API key in code.
 
 ---
 
-## 👤 Author
+## Author
 
 **Kartik Meena**
 Backend + AI/ML Engineer
 
-```
-
----
-
-This version will render perfectly. No hidden bugs.
 ```
