@@ -78,9 +78,6 @@ cats_vs_dogs/
 
 - **Validation Accuracy:** ~68.57%  
 
-### Reality Check
-This accuracy is low for this problem. A basic CNN is not enough to perform well on this dataset.
-
 ---
 
 ## How to Run
